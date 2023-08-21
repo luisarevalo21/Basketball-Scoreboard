@@ -1,0 +1,65 @@
+@font-face {
+  src: url("advanced_led_board-7.ttf");
+  font-family: "BasketballFont";
+}
+
+* {
+  font-family: "BasketballFont";
+}
+body {
+  background: #1b244a;
+  color: #eee;
+}
+
+.container {
+  font-family: myFirstFont;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 900px;
+  margin: 25px auto;
+}
+
+.score-team {
+  color: #eee;
+  font-size: 4rem;
+  text-align: center;
+}
+.score-number {
+  text-align: center;
+  color: #f94f6d;
+  width: 50%;
+  padding: 60px 50px;
+  background: #080001;
+  font-family: "BasketballFont";
+  font-size: 70px;
+  border-radius: 5px;
+  margin: 30px auto;
+  /* margin-bottom: 30px; */
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.btn {
+  text-align: center;
+  padding: 15px 15px;
+  border: 1px solid #9aabd8;
+  background: #1b244a;
+  color: #9aabd8;
+  font-size: 2rem;
+  margin: 8px;
+}
+
+.center {
+  text-align: center;
+}
+.new-game-btn {
+  color: #eee;
+  border-radius: 5px;
+  padding: 15px 20px;
+}
